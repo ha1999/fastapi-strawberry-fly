@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fast-api-strawberry"
+version = "0.1.0"
+description = ""
+authors = ["haico <haico>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+strawberry-graphql = {extras = ["fastapi"], version = "^0.256.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
